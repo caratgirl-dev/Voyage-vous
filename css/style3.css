@@ -1,0 +1,61 @@
+:root {
+    --bleu-pastel: #b5cdff;
+    --bleu-ciel: #dae8ff;
+    --rose-bubblegum: #feabc5;
+    --rose-clair: #ffd4e1;
+  }
+  
+  /* Fond général */
+  body {
+    background: linear-gradient(120deg, var(--bleu-ciel), var(--rose-clair));
+    font-family: 'Poppins', sans-serif;
+    color: #444;
+  }
+  
+  /* Boutons */
+  .btn-voyage {
+    background-color: var(--rose-bubblegum);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-voyage:hover {
+    background-color: var(--bleu-pastel);
+    color: #fff;
+  }
+  
+  /* En-têtes */
+  h1, h2, h3 {
+    color: var(--bleu-pastel);
+    font-weight: 700;
+  }
+  
+  /* Cartes */
+  .card {
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    background-color: white;
+  }
+  
+  .card-title {
+    color: var(--rose-bubblegum);
+  }
+  
+  /* Footer */
+  footer {
+    background-color: var(--bleu-ciel);
+    padding: 2rem 0;
+    text-align: center;
+    color: #555;
+  }
+  
+  /* Formulaires */
+  input, textarea {
+    border-radius: 1rem !important;
+    border: 1px solid var(--rose-clair);
+    background-color: #fff8fa;
+  }
+  
