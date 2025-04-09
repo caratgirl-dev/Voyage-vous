@@ -1,13 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/style.css">
   <title>Voyage&Vous</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="shortcut icon" href="img/logo (2).png" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/d4bed22d6ef3246c62278fac9343ba6e.jpg" type="image/x-icon">
+
+  <!-- Semantic UI -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
 </head>
 
 <body>
@@ -323,7 +335,87 @@
       generateCalendar(displayedMonth, displayedYear);
     </script>
   </section>
-
+  <div class="ui comments">
+    <h3 class="ui dividing header"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Commentaires</font></font></h3>
+    <div class="comment">
+      <a class="avatar">
+        <img src="/images/avatar/small/matt.jpg">
+      </a>
+      <div class="content">
+        <a class="author"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mat</font></font></a>
+        <div class="metadata">
+          <span class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Aujourd'hui à 17h42</font></font></span>
+        </div>
+        <div class="text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+          Comme c'est artistique !
+        </font></font></div>
+        <div class="actions">
+          <a class="reply"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Répondre</font></font></a>
+        </div>
+      </div>
+    </div>
+    <div class="comment">
+      <a class="avatar">
+        <img src="/images/avatar/small/elliot.jpg">
+      </a>
+      <div class="content">
+        <a class="author"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Elliot Fu</font></font></a>
+        <div class="metadata">
+          <span class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Hier à 00h30</font></font></span>
+        </div>
+        <div class="text">
+          <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cela m'a été très utile pour mes recherches. Merci à vous aussi&nbsp;!</font></font></p>
+        </div>
+        <div class="actions">
+          <a class="reply"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Répondre</font></font></a>
+        </div>
+      </div>
+      <div class="comments">
+        <div class="comment">
+          <a class="avatar">
+            <img src="/img/view-quiver-trees-forest-with-beautiful-sky-sunset-twilight-sky-scene-keetmanshoop-namibia.jpg">
+          </a>
+          <div class="content">
+            <a class="author"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kouadia Priscille</font></font></a>
+            <div class="metadata">
+              <span class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tout à l' heure</font></font></span>
+            </div>
+            <div class="text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+              Elliot, tu as toujours tellement raison :)
+            </font></font></div>
+            <div class="actions">
+              <a class="reply"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Répondre</font></font></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="comment">
+      <a class="avatar">
+        <img src="/img/landscape-tropical-vacation-palm-summer.jpg">
+      </a>
+      <div class="content">
+        <a class="author"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Yodé Madida</font></font></a>
+        <div class="metadata">
+          <span class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">il y a 5 jours</font></font></span>
+        </div>
+        <div class="text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+          Mec, c'est génial. Merci beaucoup.
+        </font></font></div>
+        <div class="actions">
+          <a class="reply"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Répondre</font></font></a>
+        </div>
+      </div>
+    </div>
+    <form class="ui reply form">
+      <div class="field">
+        <textarea></textarea>
+      </div>
+      <div class="ui blue labeled submit icon button">
+        <i class="icon edit"></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ajouter une réponse
+      </font></font></div>
+    </form>
+  </div>
   <footer class="footer text-center py-4">
     <div class="container">
       <p class="mb-2">© 2024 Voyage&Vous</p>
@@ -346,7 +438,9 @@
       </div>
     </div>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
