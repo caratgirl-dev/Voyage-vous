@@ -227,3 +227,17 @@
     background-color: #fda2bc;
     color: white;
   }
+  .section-video {
+    padding: 3rem 0;
+    background-color: #c4e9ab98;
+  }
+  .video-wrapper {
+    overflow: hidden;
+  }
+  
+  .video-wrapper video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
